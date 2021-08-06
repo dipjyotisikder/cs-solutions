@@ -2,11 +2,27 @@
 
 namespace cs_solutions
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        //access modifiers are not allowed on static constructors solutions.trickystart.v1
+        //public static Program()
+
+        static Program()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("static!");
+        }
+
+
+        public Program()
+        {
+            Console.WriteLine("public!");
+        }
+
+        //ITS the GOD rule. THE HOLY START POINT.
+        static void Main()
+        {
+            Console.WriteLine("main!");
         }
     }
+
 }
