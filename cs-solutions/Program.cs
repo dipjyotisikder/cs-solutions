@@ -5,7 +5,6 @@ namespace cs_solutions
     public class Program
     {
         //access modifiers are not allowed on static constructors solutions.trickystart.v1
-        //public static Program()
 
         static Program()
         {
